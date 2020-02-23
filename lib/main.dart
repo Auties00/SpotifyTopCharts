@@ -11,5 +11,5 @@ void main() async {
     res.write(await handler.handle());
   });
 
-  await http.startServer("192.168.1.30", 8080);
+  await http.startServer("ip", 8080);
 }
